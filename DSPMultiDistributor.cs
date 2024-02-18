@@ -29,7 +29,7 @@ using System.Security.Permissions;
 
 namespace DSPMultiDistributor
 {
-    [BepInPlugin("Appun.DSP.plugin.MultiDistributor", "DSPMultiDistributor", "0.0.2")]
+    [BepInPlugin("Appun.DSP.plugin.MultiDistributor", "DSPMultiDistributor", "0.0.3")]
     [HarmonyPatch]
 	public class Main : BaseUnityPlugin
 	{
@@ -68,14 +68,12 @@ namespace DSPMultiDistributor
                                 for (int p = 0; p < dispenserComponent2.storage.size; p++)
                                 {
                                     //int itemId = dispenserComponent2.storage.grids[p].itemId;
-                                    LogManager.Logger.LogInfo("(----------------------------UIDispenserWindow 5");
                                     int filter2 = dispenserComponent2.storage.grids[p].filter;
                                     if (filter2 > 0)
                                     //     if (itemId > 0)
                                     {
                                         for (int m = 1; m < __instance.dispenserCursor; m++)
                                         {
-                                            LogManager.Logger.LogInfo("(----------------------------UIDispenserWindow 6");
                                             DispenserComponent dispenserComponent3 = __instance.dispenserPool[m];
                                             if (dispenserComponent3 != null && dispenserComponent3.id == m && dispenserComponent3.storageMode == EStorageDeliveryMode.Demand && dispenserComponent3.filter == filter2)
                                             {

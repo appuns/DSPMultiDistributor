@@ -9,6 +9,7 @@ This don't affect achievements or milestones. <br>
 If the items handled by the distributor are not set, the distributor will transport with multiple distributors.Both request and supply are possible.<br>
 Targets items with filters set in the grid in the storage attached by the distributor. Currently only the top storage is targeted.<br>
 When you close the distributor window, connection information with other distributors is updated and distribution begins.<br>
+If you close any one distributor window, the connection information for all distributor will be updated.<br>
 Simply setting the storage filter does not update the connection information.<br>
 <br>
 I have just created it, so I will make many improvements in the future.Please let me know if you have any ideas.<br>
@@ -16,6 +17,7 @@ I have just created it, so I will make many improvements in the future.Please le
 物流配送器で取り扱うアイテムを設定していない場合、物流配送器は複数の物流配送器と搬送します。要求、供給ともに可能です。<br>
 物流配送器が接続したストレージ内のグリッドにフィルターを設定したアイテムを対象とします。現在一番上のストレージのみが対象となります。<br>
 物流配送器ウインドウを閉じたときに、他の物流配送器と接続情報が更新され、搬送が開始されます。<br>
+どれか1つの物流配送器ウインドウを閉じれば全ての物流配送器の接続情報が更新されます。<br>
 ストレージのフィルターを設定しただけでは、接続情報が更新されません。<br>
 <br>
 まだ作ったばかりなので、今後いろいろ改良します。アイデアがありましたらお知らせください。<br>
@@ -33,6 +35,8 @@ If you have any problems or suggestions, please contact DISCORD MSP Modding serv
 不具合、改善案などありましたら、DISCORD「DysonSphereProgram_Jp」サーバー**Appun#8284**までお願いします。<br>
 <br>
 ## Change Log　更新履歴
+### v0.0.3
+- Removed unnecessary processing. 無駄な処理を削除しました。
 ### v0.0.2
 - Fixed some bugs. いくつかのバグを解消しました。
 ### v0.0.1
