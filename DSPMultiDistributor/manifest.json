@@ -1,0 +1,9 @@
+{
+  "name": "DSPMultiDistributor",
+  "version_number": "0.0.1",
+  "website_url": "https://github.com/appuns/DSPMultiDistributor",
+  "description": "A distributor can now transport with multiple distributors.This don't affect achievements or milestones. 物流配送器が複数の物流配送器と輸送できるようになります。実績やマイルストーンには影響しません。",
+  "dependencies": [
+    "xiaoye97-BepInEx-5.4.17"
+  ]
+}
