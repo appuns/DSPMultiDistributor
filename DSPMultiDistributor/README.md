@@ -33,5 +33,7 @@ If you have any problems or suggestions, please contact DISCORD MSP Modding serv
 不具合、改善案などありましたら、DISCORD「DysonSphereProgram_Jp」サーバー**Appun#8284**までお願いします。<br>
 <br>
 ## Change Log　更新履歴
+### v0.0.2
+- Fixed some bugs. いくつかのバグを解消しました。
 ### v0.0.1
 - released, Supported the game version 0.10.28.21308. リリースしました。ゲームバージョン0.10.29.21950に対応しています。
